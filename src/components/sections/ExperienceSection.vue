@@ -23,6 +23,15 @@
       <div class="d-flex"><h2 class="h2-dark-bg">Work</h2></div>
       <ExperienceEntry
         company="Perion DOOH"
+        :startDate="new Date('March 1, 2025')"
+        position="Junior Frontend Developer"
+        description="Contributed to the development of Perion's Digital Out of Home (DOOH) ad tech platform using <b>Vue.js</b>, emphasizing user experience and adhering to agile methodologies."
+        location="Montreal, QB"
+        linkText="Perion DOOH"
+        link="https://www.hivestack.com/"
+      />
+      <ExperienceEntry
+        company="Perion DOOH"
         :startDate="new Date('May 1, 2024')"
         :endDate="new Date('December 31, 2024')"
         position="Frontend Intern"
